@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #00BFFF;
+    padding: 20px;
+}
+
+#logo img {
+    margin-right: 20px;
+}
+
+#menu {
+    flex-grow: 1;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    font-size: 20px;
+    color: #dcebaf;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    color: black;
+    background-color: #ADD8E6;
+    transition: 0.5s all;
+}
+
+.page-content {
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Definindo as cores aleatórias para cada página */
+.perfil {
+    background-color: #ffcc99;
+}
+
+.experiencias {
+    background-color: #99ccff;
+}
+
+.formacao_certificados {
+    background-color: #ccffcc;
+}
+
+.competencias {
+    background-color: #ff99cc;
+}
